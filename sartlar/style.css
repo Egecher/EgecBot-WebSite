@@ -1,0 +1,45 @@
+main {
+    background: #1e1e2e;
+}
+
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content h1 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 20px;
+    color: #F5F5F7;
+    margin-bottom: 10px;
+}
+
+.content ul {
+    margin-left: 20px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.content ul li {
+    color: #b0a9a9;
+}
+
+.content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
