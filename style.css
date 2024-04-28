@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+header {
+    background-color: rgb(47, 47, 153);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+}
+
+.logo {
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    border-radius: 20px;
+    padding: 15px 25px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
+
+button.button1 {
+    background: #5E5DF0;
+    border-radius: 999px;
+    color: #FFFFFF;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    margin-right: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+button.button1 a {
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+
+button.button1:hover {
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+}
+
+.active {
+    background-color: rgb(94, 94, 229);
+}
+
+/* Hero bölümü */
+.hero {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 100px 20px; 
+    background-color: #1e1e2e; 
+    color: #ccc; 
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ffffff; 
+}
+
+.hero .feature-description {
+    max-width: 800px;
+    margin: auto;
+}
+
+.hero p {
+    font-size: 16px; 
+    margin-bottom: 20px;  
+    opacity: 1; 
+    transform: none;  
+}
+
+.hero .button2 {
+    background-color: #333333; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Features bölümü */
+.features {
+    display: grid;
+    place-items: center;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #1e1e2e; 
+    color: #ffffff; 
+}
+
+.feature-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+    gap: 20px;
+    justify-content: center; 
+}
+
+.features h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.features .feature-item {
+    border: 1px solid #777777;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.features .feature-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.features .feature-item h3 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.features .feature-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ccc;
+}
+
+.feature-item ul li {
+    list-style-type: none;
+    color: #ccc;
+}
+
+.button-discord {
+    background-color: #5E5DF0; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.button-discord a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.button-discord:hover {
+    background-color: #4444FF; 
+}
+
+.button-commands {
+    background-color: #333333;
+    color: #FFFFFF; 
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.button-commands a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.button-commands:hover {
+    background-color: #433e3e; 
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button-group a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px 24px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #ddd;
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+footer p {
+    font-size: 14px; 
+}
+
+.footer-content {
+    display: flex; 
+    justify-content: space-between; 
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section ul li {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+    margin: 0 8px;
+}
+
+.footer-section ul li a {
+    color: #ddd;
+    text-decoration: none; 
+}
+
+.footer-section ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-section a:hover{
+    opacity: 0.8;
+}
+
+.feature-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.feature-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+i {
+    color: rgb(209, 23, 23);
+    padding: 5px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+    header {
+        width: 100%; 
+        padding: 20px 0px; 
+    }
+
+    header nav {
+        display: none; 
+    }
+
+    .button1 {
+        padding: 10px 20px; 
+        margin-right: 20px; 
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px 20px;
+        margin-bottom: 10px; 
+        text-align: center; 
+    }
+
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .hero h1 {
+        font-size: 32px; 
+        margin-bottom: 20px;
+    }
+
+    .hero p {
+        font-size: 14px; 
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .features {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 50px 20px;
+    }
+    
+    .feature-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 1200px; 
+        margin: 0 auto; 
+    }
+    
+    .features .feature-item {
+        width: 100%; 
+        max-width: 400px; 
+        margin-bottom: 40px; 
+    }    
+
+    .features .feature-item h3 {
+        font-size: 18px;
+    }
+
+    .features .feature-item p {
+        font-size: 14px; 
+        line-height: 1.5; 
+    }
+
+   /* Footer */
+    footer {
+        padding: 20px 0;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    .footer-content {
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    .footer-section h3 {
+        margin-bottom: 10px;
+    }
+
+    .footer-section .link ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .footer-section ul li {
+        margin-bottom: 3px;
+    }
+
+    .footer-section ul li a {
+        text-decoration: none;
+    }
+
+    .footer-section ul.links li {
+        margin-bottom: 3px;
+    }
+
+    .footer-section ul.links li a {
+        text-decoration: none;
+    }
+
+    .footer-section ul.social-links {
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    .footer-section ul.social-links li {
+        margin-right: 10px; 
+    }
+
+    .footer-section ul.social-links li:last-child {
+        margin-right: 0;
+    }
+
+    .footer-section ul.social-links li a {
+        font-size: 20px;
+    }
+}
