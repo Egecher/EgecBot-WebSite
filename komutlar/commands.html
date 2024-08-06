@@ -11,7 +11,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
     <meta property="og:title" content="EgecBot - Komutlar">
     <meta property="og:url" content="https://egecbot.xyz/komutlar/commands.html">
-    <meta property="og:description" content="EgecBot komutları ve kullanımı hakkında bilgi alın. EgecBOT ile Discord sunucunuzu daha eğlenceli hale getirin. Komutlar, eğlence, moderasyon ve daha fazlası!">
+    <meta property="og:description" content="EgecBot komutları ve kullanımı hakkında bilgi alın. EgecBot ile Discord sunucunuzu daha eğlenceli hale getirin. Komutlar, eğlence, moderasyon ve daha fazlası!">
     <meta property="og:image" content="https://egecbot.xyz/images/favicon-32x32.png">
     <meta property="og:image:width" content="512">
     <meta property="og:image:height" content="512">
@@ -49,50 +49,14 @@
 
     <section class="commands">
         <h2>Komutlar</h2>
+        
         <div class="command-item appear">
             <h3>/yardım</h3>
             <p>Botun tüm komutlarını ve kullanımını listeler.</p>
         </div>
-        <div class="command-item appear">
-            <h3>/sunucu giriş-çıkış-kur</h3>
-            <p>Giriş çıkış sistemini sunucunuza kurarsınız.</p>
-        </div>
-        <div class="command-item appear">
-            <h3>/otorol rol</h3>
-            <p>Sunucuda otorol sistemini ayarlarsınız.</p>
-        </div>
-        <div class="command-item appear">
-            <h3>/otorol sıfırla</h3>
-            <p>Sunucuda otorol sistemini sıfırlarsınız.</p>
-        </div>
-        <div class="command-item appear">
-            <h3>/mute</h3>
-            <p>Belirttiğiniz kullanıcıyı susturur.</p>
-        </div>
-        <div class="command-item appear">
-            <h3>/unmute</h3>
-            <p>Belirttiğiniz kullanıcının susturulmasını kaldırır.</p>
-        </div>
-        <div class="command-item appear">
-            <h3>/lock</h3>
-            <p>Komutun kullanıldığı kanala mesaj gönderilmeyi kapatır.</p>
-        </div>
-        <div class="command-item appear">
-            <h3>/unlock</h3>
-            <p>Komutun kullanıldığı kanalın mesaj gönderilmesini açar.</p>
-        </div>
-        <div class="command-item appear">
-            <h3>/sil <i>miktar</i></h3>
-            <p>Belirtilen miktarda mesajı temizler.</p>
-        </div>
-        <div class="command-item appear">
-            <h3>/resim-oyla</h3>
-            <p>Gönderdiğiniz resmi sunucuda oylamaya sunar.</p>
-        </div>
-        <div class="command-item appear">
-            <h3>/ticket yardım</h3>
-            <p>Bilet yardım panelini gösterir.</p>
-        </div>
+
+        <!-- Moderasyon Komutları -->
+        <h3 class="category">Moderasyon Komutları</h3>
         <div class="command-item appear">
             <h3>/kick <i>üye</i></h3>
             <p>Belirttiğiniz üyeyi sunucudan atar.</p>
@@ -109,34 +73,60 @@
             <h3>/unban <i>üye ID'si</i></h3>
             <p>Sunucudan yasaklanan kullanıcının yasağını kaldırırsınız.</p>
         </div>
-        <div class="command-item">
-            <h3>/kelime-oyunu başlat</h3>
-            <p>Kelime oyununu başlatırsınız.</p>
+        <div class="command-item appear">
+            <h3>/sil <i>miktar</i></h3>
+            <p>Belirtilen miktarda mesajı temizler.</p>
+        </div>
+        <div class="command-item appear">
+            <h3>/lock</h3>
+            <p>Komutun kullanıldığı kanala mesaj gönderilmeyi kapatır.</p>
+        </div>
+        <div class="command-item appear">
+            <h3>/unlock</h3>
+            <p>Komutun kullanıldığı kanalın mesaj gönderilmesini açar.</p>
+        </div>
+        <div class="command-item appear">
+            <h3>/mute</h3>
+            <p>Belirttiğiniz kullanıcıyı susturur.</p>
+        </div>
+        <div class="command-item appear">
+            <h3>/unmute</h3>
+            <p>Belirttiğiniz kullanıcının susturulmasını kaldırır.</p>
         </div>
         <div class="command-item">
-            <h3>/kelime-oyunu kanal-sıfırla</h3>
-            <p>Kelime oyunu kanalını sıfırlarsınız.</p>
+            <h3>/caps-engel</h3>
+            <p>Sunucuda caps engel sistemini kurarsınız.</p>
         </div>
         <div class="command-item">
-            <h3>/sayı-sayma kur</h3>
-            <p>Sayı sayma oyununu kurarsınız.</p>
+            <h3>/reklam-engel</h3>
+            <p>Sunucuda yönetici dışında herkesin reklam yapmasını engeller.</p>
         </div>
         <div class="command-item">
-            <h3>/sayı-sayma kanal-sıfırla</h3>
-            <p>Sayı sayma oyunu kanalını sıfırlarsınız.</p>
+            <h3>/küfür-engel</h3>
+            <p>Sunucuda küfür engel sistemini kurarsınız.</p>
         </div>
         <div class="command-item">
-            <h3>/say <i>mesajınız</i></h3>
-            <p>Yazdığınız mesajı bota söyletirsiniz.</p>
+            <h3>/durum-rol</h3>
+            <p>EgecBot yazılmasını istediğiniz durumu yazan kullanıcılarınıza seçtiğiniz rölü oto atasın.</p>
         </div>
         <div class="command-item">
-            <h3>/avatar <i>kullanıcı</i></h3>
-            <p>Etiketlediğiniz kullanıcının avatarını gösterir.
-            </p>
+            <h3>/güvenlik-sistemi</h3>
+            <p>Sunucuya katılan kullanıcının hesabını analiz eder ve belirlediğiniz kanala raporlar.</p>
         </div>
+        
+        <!-- Sunucu Komutları -->
+        <h3 class="category">Sunucu Komutları</h3>
         <div class="command-item">
             <h3>/sunucu bilgi</h3>
             <p>Sunucuda kaç kullanıcı olduğunu söyler.</p>
+        </div>
+        <div class="command-item appear">
+            <h3>/resim-oyla</h3>
+            <p>Gönderdiğiniz resmi sunucuda oylamaya sunar.</p>
+        </div>
+        <div class="command-item appear">
+            <h3>/ticket_yardım</h3>
+            <p>Bilet yardım panelini gösterir.</p>
         </div>
         <div class="command-item">
             <h3>/duyuru <i>duyuru_mesajınız</i></h3>
@@ -154,42 +144,93 @@
             <h3>/sunucu panel</h3>
             <p>Üye sayısı takip paneli oluşturur.</p>
         </div>
-        <div class="command-item">
-            <h3>/reklam-engel aç</h3>
-            <p>Sunucuda yönetici dışında herkesin link atmasını engeller.</p>
+        <div class="command-item appear">
+            <h3>/sunucu giriş-çıkış-kur</h3>
+            <p>Giriş çıkış sistemini sunucunuza kurarsınız.</p>
         </div>
         <div class="command-item">
-            <h3>/reklam-engel kapat</h3>
-            <p>Sunucuda reklam engel sistemini kapatırsınız.</p>
+            <h3>/sohbet</h3>
+            <p>Botun sohbete katılmasını ayarlarsınız.</p>
+        </div>
+        <div class="command-item appear">
+            <h3>/otorol rol</h3>
+            <p>Sunucuda otorol sistemini ayarlarsınız.</p>
+        </div>
+        <div class="command-item appear">
+            <h3>/otorol sıfırla</h3>
+            <p>Sunucuda otorol sistemini sıfırlarsınız.</p>
+        </div>
+        <div class="command-item appear">
+            <h3>/öneri-kanalı</h3>
+            <p>Her sunucu için bir kanal ayarlayabilirsiniz.</p>
+        </div>
+          
+        <!-- Kullancı Komutları -->
+        <h3 class="category">Kullanıcı Komutları</h3>
+        <div class="command-item">
+            <h3>/kullanıcı</h3>
+            <p>Etiketlenen kullanıcı hakkında bilgi verir.</p>
         </div>
         <div class="command-item">
-            <h3>/küfür-engel aç</h3>
-            <p>Sunucuda herkesin küfür etmesini engeller.</p>
+            <h3>/owner</h3>
+            <p>Sunucunun sahibini öğrenirsiniz.</p>
         </div>
         <div class="command-item">
-            <h3>/küfür-engel kapat</h3>
-            <p>Sunucuda küfür engel sistemini kapatırsınız.</p>
+            <h3>/davetsayısı</h3>
+            <p>Etiketlenen kullanıcının kaç kişi davet ettiğini gösterir.</p>
         </div>
+
+        <!-- Eğlence Komutları -->
+        <h3 class="category">Eğlence Komutları</h3>
+        <div class="command-item">
+            <h3>/kelime-oyunu başlat</h3>
+            <p>Kelime oyununu başlatırsınız.</p>
+        </div>
+        <div class="command-item">
+            <h3>/kelime-oyunu kanal-sıfırla</h3>
+            <p>Kelime oyunu kanalını sıfırlarsınız.</p>
+        </div>
+        <div class="command-item">
+            <h3>/say <i>mesajınız</i></h3>
+            <p>Yazdığınız mesajı bota söyletirsiniz.</p>
+        </div>
+        <div class="command-item">
+            <h3>/avatar <i>kullanıcı</i></h3>
+            <p>Etiketlediğiniz kullanıcının avatarını gösterir.
+            </p>
+        </div>
+        <div class="command-item">
+            <h3>/sayı-sayma kur</h3>
+            <p>Sayı sayma oyununu kurarsınız.</p>
+        </div>
+        <div class="command-item">
+            <h3>/sayı-sayma kanal-sıfırla</h3>
+            <p>Sayı sayma oyunu kanalını sıfırlarsınız.</p>
+        </div>
+
+        <!-- Bot Komutları -->
+        <h3 class="category">Bot Komutları</h3>
         <div class="command-item">
             <h3>/invite</h3>
             <p>Botu davet edersiniz ve destek sunucusuna katılabilirsiniz.</p>
+        </div>
+        <div class="command-item">
+            <h3>/destek</h3>
+            <p>Bot hakkında destek almak için.</p>
         </div>
         <div class="command-item">
             <h3>/ping</h3>
             <p>Bot pingini gösterir.</p>
         </div>
         <div class="command-item">
-            <h3>/sohbet aç</h3>
-            <p>Botun sohbete katılmasını sağlarsınız.</p>
+            <h3>/bot-bilgi</h3>
+            <p>EgecBot hakkında bilgi verir.</p>
         </div>
         <div class="command-item">
-            <h3>/sohbet kapat</h3>
-            <p>Botun sohbete katılmasını engellersiniz.</p>
+            <h3>/geri-bildirim</h3>
+            <p>EgecBot geliştiricisine geri bildirimde bulunun.</p>
         </div>
-        <div class="command-item">
-            <h3>/botbilgi</h3>
-            <p>EgecBOT hakkında bilgi verir.</p>
-        </div>
+
     </section>
 
     <footer>

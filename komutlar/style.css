@@ -10,6 +10,13 @@
     color: #fff;
 }
 
+.commands .category {
+    color: #f39c12;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
 .command-item {
     border: 1px solid #ccc;
     border-radius: 10px;
